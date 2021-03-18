@@ -69,3 +69,11 @@ http://localhost:8083/cities/stop/secret
 
 ![WhatsApp Image 2021-03-18 at 19 29 42](https://user-images.githubusercontent.com/77984592/111706266-47473480-8842-11eb-880d-8ba4171da0ff.jpeg)
 
+
+# Authors
+
+Nome | Matricola | Contributo
+------------ | -------------
+**Traian Emanuel Alexandru** | 1092539 | 33.3
+**Ubertini Francesca** | 1090348 | 33.3
+**Visi Andrea** | 1094249 | 33.3
