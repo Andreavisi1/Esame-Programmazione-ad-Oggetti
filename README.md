@@ -8,7 +8,7 @@ http://localhost:8083/forecast/statistics?start=2021-03-0100:00:00&end=2021-03-1
 - Offre le statistiche dei dati salvati nel database.
 
 http://localhost:8083/forecast/lookup/secret/?sleep=1&type=minutes&country=it&city=Ancona,Bologna,Torino,Jesi,Macerata,San*,Morovalle,Civi*
-- Scarica in modo automatico i dati da [Openweather](https://openweathermap.org/) ogni tot di tempo (nel nostro caso ogni 5 ore, basta modificare il parametro)
+- Scarica in modo automatico i dati da [Openweather](https://openweathermap.org/) ogni tot di tempo (nel nostro caso ogni 5 ore, basta modificare il parametro).
 
 http://localhost:8083/forecast/lookup/secret/stop
 - Ferma il salvataggio automatico (thread). Secret deve essere una password salvata nell’application properties.
