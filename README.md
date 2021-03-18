@@ -29,8 +29,8 @@ http://localhost:8083/cities/stop/secret
 
 - Le tabelle si creano automaticamente nel caso in cui non fossero presenti nel computer.
  Nelle ricerche si possono precisare più paesi e più città, separate dalla virgola. Inoltre si possono usare i seguenti caratteri sostitutivi:
- - “!” sostituisce un carattere nella parola (stringa);
- - “*” sostituisce uno o più caratteri nella riga.
+  - “!” sostituisce un carattere nella parola (stringa);
+  - “*” sostituisce uno o più caratteri nella riga.
 
 - Il database usato è _MariaDB_ e i parametri di connessione vanno impostati nel file “application.properties”.
 
