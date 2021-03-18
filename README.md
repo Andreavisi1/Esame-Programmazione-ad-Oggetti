@@ -52,6 +52,8 @@ http://localhost:8083/cities/stop/secret
 
 - Nel file sono presenti anche delle linee di codice per controllare le eccezioni che possono verificarsi.
 
+- Nell' "application.properties" occorre inserire la propria API_key dal sito [Openweather](https://openweathermap.org/).
+
 
 # Allegati
 
