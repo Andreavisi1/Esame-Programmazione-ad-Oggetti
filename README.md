@@ -1,13 +1,13 @@
 # Esame Programmazione ad Oggetti
-Sono chiamate di tipo get da effettuare in [Postman](https://www.postman.com):
+Sono chiamate di tipo get da effettuare in postman:
 
 http://localhost:8083/forecast?country=hu&city=B*
 -Mi da i dati senza salvarli in tempo reale
 
-http://localhost:8083/forecast/statistics?start=2021-03-01 00:00:00&end=2021-03-18 23:59:59&country=it&city=Rome,Ancona
--Mi da le statistiche dei dati salvati nel database
+http://localhost:8083/forecast/statistics?start=2021-03-0100:00:00&end=2021-03-1823:59:59&country=it&city=Rome,Ancona
+ -Mi da le statistiche dei dati salvati nel database
 
-http://localhost:8083/forecast/lookup/secret/?sleep=1&type=minutes&country=it&city=Ancona,Bologna,Torino,Jesi,Macerata,San *,Morovalle,Civi*
+http://localhost:8083/forecast/lookup/secret/?sleep=1&type=minutes&country=it&city=Ancona,Bologna,Torino,Jesi,Macerata,San*,Morovalle,Civi*
 -Scarica in modo automatico i dati da openweather ogni tot tempo (nel nostro caso ogni 5 ore, basta modificare il parametro)
 
 http://localhost:8083/forecast/lookup/secret/stop
@@ -26,11 +26,12 @@ http://localhost:8083/cities/load/secret
 http://localhost:8083/cities/stop/secret
 -Ferma il thread che carica le città dal file JSON
 
-Le tabelle si creano automaticamente nel caso in cui non fossero presenti nel computer.
+
+-Le tabelle si creano automaticamente nel caso in cui non fossero presenti nel computer.
 Nelle ricerche si possono precisare più paesi e più città, separate dalla virgola. Inoltre si possono usare i seguenti caratteri sostitutivi:
 -“!” sostituisce un carattere nella parola (stringa)
 -“*” sostituisce uno o più caratteri nella riga
 
-Il database usato è MariaDB e i parametri di connessione vanno impostati nel file “application.properties”
+-Il database usato è MariaDB e i parametri di connessione vanno impostati nel file “application.properties”
 
-Nel file sono presenti anche delle linee di codice per verificare le eccezioni che possono verificarsi
+-Nel file sono presenti anche delle linee di codice per verificare le eccezioni che possono verificarsi
