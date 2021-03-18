@@ -1,4 +1,5 @@
 # Esame Programmazione ad Oggetti
+Sono chiamate di tipo get da effettuare in postman:
 
 http://localhost:8083/forecast?country=hu&city=B*
 -Mi da i dati senza salvarli in tempo reale
@@ -7,7 +8,7 @@ http://localhost:8083/forecast/statistics?start=2021-03-01 00:00:00&end=2021-03-
 -Mi da le statistiche dei dati salvati nel database
 
 http://localhost:8083/forecast/lookup/secret/?sleep=1&type=minutes&country=it&city=Ancona,Bologna,Torino,Jesi,Macerata,San *,Morovalle,Civi*
--Scarica in modo automatico i dati da openweather ogni tot tempo ()
+-Scarica in modo automatico i dati da openweather ogni tot tempo (nel nostro caso ogni 5 ore, basta modificare il parametro)
 
 http://localhost:8083/forecast/lookup/secret/stop
 -Ferma il salvataggio automatico (thread). Secret deve essere una password salvata nell’application properties
@@ -18,7 +19,6 @@ http://localhost:8083/forecast/seed/secret/stop
 
 http://localhost:8083/cities?country=it&city=Ancona
 -Legge la lista delle città salvate nel database
-
 
 http://localhost:8083/cities/load/secret
 -Carica le città del mondo da un file JSON messo a disposizione da openweather.
@@ -32,3 +32,5 @@ Nelle ricerche si possono precisare più paesi e più città, separate dalla vir
 -“*” sostituisce uno o più caratteri nella riga
 
 Il database usato è MariaDB e i parametri di connessione vanno impostati nel file “application.properties”
+
+Nel file sono presenti anche delle linee di codice per verificare le eccezioni che possono verificarsi
