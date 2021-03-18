@@ -73,7 +73,7 @@ http://localhost:8083/cities/stop/secret
 # Authors
 
 Nome | Matricola | Contributo
------------- | -------------
+------------ | ------------- | -------------
 **Traian Emanuel Alexandru** | 1092539 | 33.3
 **Ubertini Francesca** | 1090348 | 33.3
 **Visi Andrea** | 1094249 | 33.3
