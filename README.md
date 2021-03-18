@@ -1,5 +1,5 @@
 # Esame Programmazione ad Oggetti
-Sono chiamate di tipo get da effettuare in postman:
+Sono chiamate di tipo get da effettuare in [Postman](https://www.postman.com):
 
 http://localhost:8083/forecast?country=hu&city=B*
 -Mi da i dati senza salvarli in tempo reale
