@@ -1,17 +1,17 @@
 # Esame Programmazione ad Oggetti
 Sono chiamate di tipo get da effettuare in [Postman](https://www.postman.com):
 
+- Presenta i dati senza salvarli in tempo reale
 http://localhost:8083/forecast?country=hu&city=B*
-- Presenta i dati senza salvarli in tempo reale.
 
+- Offre le statistiche dei dati salvati nel database
 http://localhost:8083/forecast/statistics?start=2021-03-0100:00:00&end=2021-03-1823:59:59&country=it&city=Rome,Ancona
-- Offre le statistiche dei dati salvati nel database.
 
+- Scarica in modo automatico i dati da [Openweather](https://openweathermap.org/) ogni tot di tempo (nel nostro caso ogni 5 ore, basta modificare il parametro)
 http://localhost:8083/forecast/lookup/secret/?sleep=1&type=minutes&country=it&city=Ancona,Bologna,Torino,Jesi,Macerata,San*,Morovalle,Civi*
-- Scarica in modo automatico i dati da [Openweather](https://openweathermap.org/) ogni tot di tempo (nel nostro caso ogni 5 ore, basta modificare il parametro).
 
+- Ferma il salvataggio automatico (thread). Secret deve essere una password salvata nell’application properties
 http://localhost:8083/forecast/lookup/secret/stop
-- Ferma il salvataggio automatico (thread). Secret deve essere una password salvata nell’application properties.
 
 http://localhost:8083/forecast/seed/secret/?sleep=1&type=seconds&country=it&city=*
 http://localhost:8083/forecast/seed/secret/stop
