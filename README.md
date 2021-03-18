@@ -25,6 +25,9 @@ http://localhost:8083/forecast/lookup/secret/stop
 
 http://localhost:8083/forecast/seed/secret/?sleep=1&type=seconds&country=it&city=*
 
+
+- Termina il processo di inserimento di elementi random all'interno del database
+
 http://localhost:8083/forecast/seed/secret/stop
 
 
