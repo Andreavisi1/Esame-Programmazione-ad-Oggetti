@@ -35,3 +35,15 @@ http://localhost:8083/cities/stop/secret
 - Il database usato è _MariaDB_ e i parametri di connessione vanno impostati nel file “application.properties”.
 
 - Nel file sono presenti anche delle linee di codice per controllare le eccezioni che possono verificarsi.
+
+
+# Allegati
+
+- UseCase Diagram:
+
+<img width="817" alt="UseCase Diagram" src="https://user-images.githubusercontent.com/77984592/111706181-2383ee80-8842-11eb-9b29-7247a89b6ef2.png">
+
+- Prova dell'acquisizione di 17 milioni di dati per le sole città italiane in un intero anno:
+
+![WhatsApp Image 2021-03-18 at 19 29 42](https://user-images.githubusercontent.com/77984592/111706266-47473480-8842-11eb-880d-8ba4171da0ff.jpeg)
+
